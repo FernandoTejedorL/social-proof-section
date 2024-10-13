@@ -25,5 +25,267 @@ ul {
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "League Spartan", sans-serif;
+}
+
+.top-bg-ds {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+
+@media screen and (width>768px) {
+  .top-bg-ds {
+    opacity: 1;
+    height: 362px;
+    width: 584px;
+  }
+}
+
+.top-bg-mb {
+  position: absolute;
+  top: 0;
+  height: 232px;
+  width: 374px;
+}
+
+@media screen and (width>768px) {
+  .top-bg-mb {
+    opacity: 0;
+  }
+}
+
+.cards {
+  margin-top: 82px;
+  margin-left: 24px;
+}
+
+.card-1 {
+  height: 219px;
+  width: 327px;
+}
+
+.headtxt {
+  font-size: 40px;
+  color: #512051;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media screen and (width>768px) {
+  .headtxt {
+    text-align: left;
+  }
+}
+
+.headp {
+  font-size: 19px;
+  line-height: 25px;
+  color: #927b91;
+  text-align: center;
+}
+
+@media screen and (width>768px) {
+  .headp {
+    text-align: left;
+  }
+}
+
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 266px;
+  width: 327px;
+  margin-top: 39px;
+  margin-bottom: 49px;
+}
+
+@media screen and (width>768px) {
+  .card-2 {
+    width: 540px;
+    align-items: flex-start;
+  }
+}
+
+.card-2-elem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 266px;
+  width: 327px;
+  background-color: #f7f2f7;
+  height: 78px;
+  border-radius: 8px;
+}
+
+@media screen and (width>768px) {
+  .starred {
+    display: flex;
+    flex-direction: row;
+    width: 540px;
+  }
+}
+
+@media screen and (width>768px) {
+  .star1 {
+    align-self: flex-start;
+    width: 445px;
+  }
+
+  .star2 {
+    align-self: center;
+    width: 445px;
+  }
+
+  .star3 {
+    align-self: flex-end;
+    width: 445px;
+  }
+}
+
+.stars {
+  display: flex;
+  margin-top: 16px;
+}
+
+.starmarg {
+  margin-right: 3px;
+}
+
+@media screen and (width>768px) {
+  .stars {
+    margin-top: 0;
+  }
+}
+
+.rated {
+  color: #512051;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+@media screen and (width>768px) {
+  .dsk-top {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    margin-left: 165px;
+    margin-top: 118px;
+  }
+}
+
+@media screen and (width>768px) {
+  .dsk-bot {
+    display: flex;
+    width: 1110px;
+    height: 290px;
+    justify-content: space-between;
+    margin-left: 165px;
+    margin-top: 89px;
+    gap: 30px;
+  }
+}
+
+@media screen and (width>768px) {
+  .custo-1 {
+    align-self: flex-start;
+    width: 350px;
+    height: 234px;
+  }
+
+  .custo-2 {
+    align-self: center;
+    width: 350px;
+    height: 234px;
+  }
+
+  .custo-3 {
+    align-self: flex-end;
+    width: 350px;
+    height: 234px;
+  }
+}
+
+.cs-cards {
+  position: relative;
+  height: 248px;
+  width: 327px;
+  background-color: #512051;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 32px;
+}
+
+.prof-circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.prof {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
+
+.namebought {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.name {
+  margin: 0px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.buyed {
+  margin: 4px 0px 0 0;
+  font-size: 17px;
+  font-weight: 400;
+  color: #ee69a4;
+}
+
+.cs-txt {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-top: 23px;
+}
+
+.bot-bg-ds {
+  opacity: 0;
+}
+
+.bot-bg-mb {
+  position: relative;
+  top: -574px;
+  left: -355px;
+  height: 673px;
+  width: 1085px;
+}
+
+.bot-bg-mb-img {
+  height: 673px;
+  width: 1085px;
+}
+
+@media screen and (width>768px) {
+  .bot-bg-mb {
+    opacity: 0;
+  }
+
+  .bot-bg-ds {
+    opacity: 1;
+    position: absolute;
+    top: 127px;
+    left: 355px;
+    height: 673px;
+    width: 1085px;
+    z-index: -1;
+  }
 }
